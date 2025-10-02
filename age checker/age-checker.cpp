@@ -12,11 +12,11 @@ int main()
     cin >> givenAge;
     if (givenAge >=18)
     {
-        cout << "Dear " << name << ", you are an adult and you can vote." << endl;
+        cout << "Dear " << name << ", you are an adult." << endl;
     }
     else
     {
-        cout << "Dear " << name << ", you are not an adult and you cannot vote." << endl;
+        cout << "Dear " << name << ", you are not an adult." << endl;
     }
     return 0;
 }

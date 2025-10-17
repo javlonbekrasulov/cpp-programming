@@ -1,0 +1,20 @@
+
+    // ...existing code...
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C++ file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "build",
+            "MIMode": "gdb"
+        }
+    ]
+}
+// ...existing code...

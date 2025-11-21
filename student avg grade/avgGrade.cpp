@@ -13,7 +13,7 @@ int main(){
     int count;
     double sum = 0, grade;
 
-    cout << "How many grades (1 to 5)\n";
+    cout << "How many grades? (1 to 5)\n";
     cin >> count;
 
     if (count < 1 || count > 5){
